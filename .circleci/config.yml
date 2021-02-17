@@ -61,7 +61,7 @@ jobs:
             - 'venv'
       - run:
           name: run tests
-          command: ~/.venv/bin/pytest
+          command: ~/venv/bin/pytest
 
       - store_artifacts:
           path: test-reports/
